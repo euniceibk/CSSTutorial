@@ -1,0 +1,289 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #404040;
+  }
+  
+  header {
+    width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+  i {
+    /* font-size:30px; */
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #404040;
+    height: 5px;
+    width: 5px;
+    font-size: small;
+  }
+  
+  /* NAV BAR */
+  .material-icons{
+    display:inline-flex;
+    position:absolute;
+    justify-content: center;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  #nav_bar {
+    float: right;
+  }
+  
+  #nav_bar li {
+    display: inline-block;
+    padding: 8px;
+  }
+    
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-size: small;
+  }
+  
+  footer ul a .lang-links li.nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  #sign_in:hover { 
+    box-shadow: 1px 1px 5px #999;
+  }
+  
+  /* GOOGLE LOGO */
+  .google #google_logo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    /* padding-top: 112px; */
+    padding-bottom: 20px;
+    height: min-content;
+
+  }
+  
+  .form {
+    text-align: center;
+  }
+  
+  #form-search { 
+    width: 500px;
+    line-height: 45px;
+    padding: 0px 40px;
+    border:none;
+    border: solid 1px #ccc;
+    border-radius: 30px;
+  }
+  
+  /* .form #form-search {
+    padding: 0 8px;
+  } */
+  
+  #form-search:hover {
+    box-shadow: 1px 1px 4px #ccc;
+    padding-top: 0;
+  }
+  
+  /* .search-box{
+display: flex;
+  align-items: center;
+  position: relative;
+  } */
+
+  .button-field {
+    border:none;
+    background-color: #f8f8f8;
+    border:none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-inline: 3px;
+  }
+  .button-field:hover {
+    border: solid 1px #ccc;
+  }
+
+
+  .buttons{
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .languages {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 300px;
+    font-size: small;
+  }
+
+  .lang-label{
+    display: inline-block;
+  }
+
+  .lang-links{
+    display: inline-block;
+    padding: 5px;
+    color:darkblue;
+  }
+
+  /* FOOTER */
+  footer  {
+    background: #f2f2f2;
+  /*   position: fixed; */
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+    color: #707579;
+    font-size:15px;
+    
+  }
+
+  .country{
+    border-bottom: solid 1px #e4e4e4;
+    padding: 15px;
+    padding-left: 20px;
+
+  }
+
+  .footer-div{
+    text-align: center;
+    font-size: 14px;
+    background: #f2f2f2;
+  }
+  
+  footer ul li {
+    display: inline;
+    font-size: 14px;
+    padding: 13px;
+  }
+  
+  footer ul {
+    float: left;
+    padding: 1px;
+
+  }
+    
+  .footer-right {
+    float: right;
+  }
+  
+  /* MEDIA QUERIES */
+  
+  /* @media screen and (max-width: 400px) {
+   
+   li.nav-links a {
+      display: none;
+    }
+    
+   #google_logo {
+     padding: 0;
+   }
+    
+   .buttons {
+     display: none;
+   }
+    
+   #form-search {
+     width: 80%;
+  
+   }
+    
+   footer {
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background-color: #F2F2F2;
+  }
+    
+   footer ul {
+     float: none;
+     padding-bottom: 2px;
+      
+   }
+    
+   .footer-left {
+     text-align: center;
+     margin: auto; 
+     padding-top: 10px;
+      
+   }
+    
+   .footer-right {
+     float: none;
+     text-align: center;
+     
+   }
+  }
+   */
+  /* @media screen and (max-width: 565px) {
+   
+    li.nav-links a {
+      display: none;
+    }
+    
+    
+   #google_logo {
+     padding: 0;
+   }
+    
+   .buttons {
+     display: none;
+   }
+    
+   #form-search {
+     width: 80%;
+  
+   }
+    
+   footer {
+     position:absolute;
+     bottom:0;
+     width:100%;
+     background-color: #F2F2F2;
+   }
+
+    
+   footer ul {
+     float: none;
+     padding-bottom: 2px;
+      
+   }
+    
+   .footer-left {
+     text-align: center;
+     margin: auto; 
+     padding-top: 10px;
+      
+   }
+    
+   .footer-right {
+     float: none;
+     text-align: center;
+     
+   }
+  } */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
