@@ -124,16 +124,6 @@
       display: flex;
   }
 
-  /* .main-nav a::after{
-    content: none;
-    font-weight: bold;
-    height: 7.49px;
-    width: 7.49px;
-    position: relative;
-    padding: 11px
-
-} */
-
   .main-nav a:first-child{
     content: none;
 }
