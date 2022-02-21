@@ -110,14 +110,18 @@
   }
 
   nav ul li{
-      display: inline;
+      display: inline-flex;
       padding: 1rem;
       float: left;
       width: auto;
-      overflow-wrap: normal;
+      list-style: disc;
+  }
+
+  nav ul{
+      list-style: disc;
   }
   nav div{
-      display: grid;
+      display: flex;
   }
 
   /* .main-nav a::after{
@@ -152,7 +156,7 @@ main div{
     /* linear-gradient(to top,  #030305, transparent), */
     url("images/young-beautiful-sportive-girl-training-with-dumbbells-dark-wall 1.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-attachment: scroll;
     position: relative;
@@ -1068,8 +1072,8 @@ main div{
 }
 
 hr{
-    border: 1px solid #00000080;
-    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 100%;
 }
 
 .workout-trend-div-top{
@@ -1178,7 +1182,7 @@ hr{
     line-height: 58px;
     margin: 0px;
     padding: 0;
-    margin-bottom: 42px;
+    margin-bottom: 32px;
 
 } 
 .trending-podcast-div{
@@ -1195,7 +1199,8 @@ hr{
     display: grid;
     grid-template-columns: auto auto 15%;
     column-gap: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     top: 0;
     height: auto;
     width: 100%;
